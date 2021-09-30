@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800);
+
+*
+{
+    font-family: 'Montserrat', 'sans-serif';
+}
+body
+{
+    background: #FFFFFF;
+}
+
+
+form.Connexion
+{
+    margin: auto;
+    margin-top: 200px;
+    width:650px;
+    padding: 30px;
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input[type=text], input[type=password]
+ {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] 
+{
+    background-color: rgb(0, 136, 55);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover 
+{
+    background-color: lightgray;
+    color: rgb(0, 136, 55);
+    transition: 0.5s;
+}
+
+h2
+{
+    font-weight: 500;
+}
+
+.ok
+{
+    color: rgb(0, 136, 55);
+    font-weight: 700;
+}
+
+p
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: underline;
+    color: rgb(0, 136, 55);
+}
+
+a:hover 
+{
+    text-decoration: none;
+}
+
+.disconnectButton
+{
+    text-decoration: none;
+}
+
+.disconnectButton:hover
+{
+    color: red;
+    transition: 0.5s;
+}
+
+div.favoris
+{
+    border: solid 0.1px gray;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.LogoNhood
+{
+    float: right;
+    width: 20%;
+}
+
+.formTitle
+{
+    margin-top: auto;
+}
+
+section.header
+{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2.title-content
+{
+    margin-left: 100px;
+    text-decoration: underline 3px rgb(0, 136, 55);;
+    
+}
+
+div.message
+{
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a.favButton
+{
+    color: black;
+    font-size: 1.3em;
+    margin-left: 5px;
+}
+
+a.favButton:hover
+{
+    color: orange; 
+    transition: 0.2s;
+}
+
+a.UnfavButton
+{
+    color: black;
+    font-size: 1.3em;
+    float: right;
+    margin-right: 15px;
+}
+
+a.DltButton
+{
+    color: black;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+a.DltButton:hover
+{
+    color: gray; 
+    transition: 0.2s;
+}
+
+a.AsReadButton
+{
+    color: black;
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+
+a.AsReadButton:hover
+{
+    color: gray; 
+    transition: 0.2s;
+}
+
+.Buttons
+{
+    float: right;
+    margin-top: 5px;
+}
+
+form.SendMess
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.select-style {
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    position: relative;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 200px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-style:after {
+    top: 50%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+textarea
+{
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+h1.EmptyBox
+{
+    text-align: center;
+}
